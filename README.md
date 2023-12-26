@@ -1,19 +1,19 @@
 # Amethyst CMYK ICC Profiles
 
-[!warning]
-**USE AT YOUR OWN RISK:** These profiles are experimental, and have **NOT** received any practical
-evaluation yet.
+> [!CAUTION]
+> **USE AT YOUR OWN RISK:** These profiles are experimental, and have **NOT** received any practical
+> evaluation yet.
 
-[!important]
-**HARD PROOF:** You can mitigate your risk somewhat by requesting a hard proof you can inspect
-in person from your print shop in advance of any print run.
+> [!IMPORTANT]
+> **HARD PROOF:** You can mitigate your risk somewhat by requesting a hard proof you can inspect
+> in person from your print shop in advance of any print run.
 
 ## What's The Significance Of "Amethyst"
 Nothing in particular, it's a unique marker to reflect where these profiles originated from.
 
-[!note]
-We kindly request that others who generate their own profiles do not use "Amethyst" to prevent
-any confusion in this matter.
+> [!NOTE]
+> We kindly request that others who generate their own profiles do not use "Amethyst" to prevent
+> any confusion in this matter.
 
 ## Why Another Set Of CMYK ICC Profiles
 This project aims to provide a consistent set of commonly used CMYK ICC profiles, specifically
@@ -36,9 +36,9 @@ black generation.
 | Average Deviation | < 0.3 DE2000                                     | Imperceptible                         |
 | Maximum Deviation | < 2.1 DE2000                                     | Perceptible Through Close Observation |
 
-[!note]
-ArgyllCMS < 3.1.0 had a bug, when compiled with a somewhat recent version of GCC, resulted
-in bumpy black generation, which we want to avoid.
+> [!NOTE]
+> ArgyllCMS < 3.1.0 had a bug, when compiled with a somewhat recent version of GCC, resulted
+> in bumpy black generation, which we want to avoid.
 
 ## Other CMYK ICC Profile Sources
 
