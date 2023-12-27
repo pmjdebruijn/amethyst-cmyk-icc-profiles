@@ -5,10 +5,10 @@
 > evaluation yet.
 
 > [!IMPORTANT]
-> **HARD PROOF:** You can mitigate your risk somewhat by requesting a hard proof you can inspect
+> **HARD PROOF:** You can mitigate your own risk somewhat by requesting a hard proof you can inspect
 > in person from your print shop in advance of any print run.
 
-## What's The Significance Of "Amethyst"
+## What's The Significance Of "Amethyst" Or "mth"
 Nothing in particular, it's a unique marker to reflect where these profiles originated from.
 
 > [!NOTE]
@@ -26,15 +26,15 @@ black generation.
 
 ## Profile Parameters
 
-| Name              | Value                                            | Note                                  |
-| ----------------- | ------------------------------------------------ | ------------------------------------- |
-| Software          | [ArgyllCMS](https://www.argyllcms.com/) >= 3.1.0 |                                       |
-| Gamut Mapping     | sRGB                                             |                                       |
-| Black Start       | 20%                                              |                                       |
-| Black Generation  | 70%                                              | Medium/Low                            |
-| Smoothing         |  2%                                              | Medium                                |
-| Average Deviation | < 0.3 DE2000                                     | Imperceptible                         |
-| Maximum Deviation | < 2.1 DE2000                                     | Perceptible Through Close Observation |
+| Name              | Value                                                              | Note                                  |
+| ----------------- | ------------------------------------------------------------------ | ------------------------------------- |
+| Software          | [ArgyllCMS](https://www.argyllcms.com/) >= 3.1.0                   | See Note Below                        |
+| Gamut Mapping     | [sRGB](https://en.wikipedia.org/wiki/SRGB)                         | For Perceptual/Saturation Intents     |
+| Black Start       | 20%                                                                | Approximately                         |
+| Black Generation  | 70%                                                                | Medium                                |
+| Smoothing         |  2%                                                                | Medium                                |
+| Average Deviation | < 0.3 [CIE DE2000](https://en.wikipedia.org/wiki/Color_difference) | Imperceptible                         |
+| Maximum Deviation | < 2.1 [CIE DE2000](https://en.wikipedia.org/wiki/Color_difference) | Perceptible Through Close Observation |
 
 > [!NOTE]
 > ArgyllCMS < 3.1.0 had a bug, when compiled with a somewhat recent version of GCC, resulted
