@@ -26,7 +26,7 @@ colprofcmyk ()
   echo "${DATASET} ${DESCRIPTION_F}_${TOTAL_AREA_COVERAGE}_${SUFFIX}.icc"
   colprof \
           -D "${DESCRIPTION} ${TOTAL_AREA_COVERAGE}% (${BRANDING})" -C "${COPYRIGHT}"							\
-          -r ${AVG_DEV} -n c -q h -cmt -dpp -K p ${STLE} ${STPO} ${ENPO} ${ENLE} ${SHAPE} -L ${MAX_K} -l ${TOTAL_AREA_COVERAGE} ${GAMUT_MAPPING}	\
+          -r ${AVG_DEV} -n c -q u -b h -cmt -dpp -K p ${STLE} ${STPO} ${ENPO} ${ENLE} ${SHAPE} -L ${MAX_K} -l ${TOTAL_AREA_COVERAGE} ${GAMUT_MAPPING}	\
           -O "${DESCRIPTION_F}_${TOTAL_AREA_COVERAGE}_${SUFFIX}.icc"											\
           chardata/${DATASET}
 
@@ -43,6 +43,8 @@ colprofcmyk https://standards.iso.org/iso/15339/-2/ISO15339-CRPC3.txt	CRPC3	"GRA
 colprofcmyk https://standards.iso.org/iso/15339/-2/ISO15339-CRPC6.txt	CRPC6	"GRACoL 2013 Coated"		2	100	320	0 0.2 1 1 0.7
 
 colprofcmyk https://standards.iso.org/iso/15339/-2/ISO15339-CRPC5.txt	CRPC5	"SWOP 2013 Coated"		2	100	260	0 0.2 1 1 0.7
+
+colprofcmyk https://www.color.org/chardata/JapanColor2011Coated_k1.txt  JCS2011	"Japan Color 2011 Coated"	2	80	350	0 0.2 1 1 0.7
 
 colprofcmyk https://www.color.org/chardata/FOGRA27L.txt			FOGRA27	"ISO Coated v1"			2	100	350	0 0.2 1 1 0.7
 colprofcmyk https://www.color.org/chardata/FOGRA27L.txt			FOGRA27	"ISO Coated v1"			2	100	300	0 0.2 1 1 0.7

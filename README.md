@@ -34,7 +34,7 @@ black generation.
 | Black Generation  | 70%                                                                | Medium                                |
 | Smoothing         |  2%                                                                | Medium                                |
 | Average Deviation | < 0.3 [CIE DE2000](https://en.wikipedia.org/wiki/Color_difference) | Imperceptible                         |
-| Maximum Deviation | < 2.1 [CIE DE2000](https://en.wikipedia.org/wiki/Color_difference) | Perceptible Through Close Observation |
+| Maximum Deviation | < 1.5 [CIE DE2000](https://en.wikipedia.org/wiki/Color_difference) | Perceptible Through Close Observation |
 
 > [!NOTE]
 > ArgyllCMS < 3.1.0 had a bug, when compiled with a somewhat recent version of GCC, resulted
