@@ -37,6 +37,9 @@ colprofcmyk ()
 colprofcmyk no_direct_download_available				TR006	"GRACoL 2006 Coated"		2	100	340	0 0.2 1 1 0.7
 colprofcmyk no_direct_download_available				TR006	"GRACoL 2006 Coated"		2	100	310	0 0.2 1 1 0.7
 
+# https://printtechnologies.org/wp-content/uploads/2020/03/cgats_swop_tr003_2016-1.zip
+colprofcmyk no_direct_download_available				TR003	"SWOP 2006 Coated"		2	100	300	0 0.2 1 1 0.7
+
 colprofcmyk https://standards.iso.org/iso/15339/-2/ISO15339-CRPC1.txt	CRPC1	"GRACoL 2013 Newspaper"		2	100	240	0 0.2 1 1 0.7
 colprofcmyk https://standards.iso.org/iso/15339/-2/ISO15339-CRPC3.txt	CRPC3	"GRACoL 2013 Uncoated"		2	100	260	0 0.2 1 1 0.7
 colprofcmyk https://standards.iso.org/iso/15339/-2/ISO15339-CRPC3.txt	CRPC3	"GRACoL 2013 Uncoated"		2	100	280	0 0.2 1 1 0.7
